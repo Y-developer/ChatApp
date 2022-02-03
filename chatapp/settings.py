@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'channels',
     'chat',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -69,6 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'chatapp.wsgi.application'
+ASGI_APPLICATION = 'chatapp.asgi.application'
 
 
 # Database
