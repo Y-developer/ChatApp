@@ -1,1 +1,2 @@
-        1 file(s) copied.
+Use followings
+- Redis-x64-5.0.14
